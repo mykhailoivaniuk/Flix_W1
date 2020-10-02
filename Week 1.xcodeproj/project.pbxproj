@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		0017947E25198AAB0057493D /* Week_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017947D25198AAB0057493D /* Week_1UITests.swift */; };
 		001794BC251992330057493D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001794BB251992330057493D /* MoviesViewController.swift */; };
 		001794C92519A01D0057493D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001794C82519A01D0057493D /* MovieCell.swift */; };
+		0032DB1F2526FC9E008934AB /* MovieDetails1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0032DB1E2526FC9E008934AB /* MovieDetails1ViewController.swift */; };
+		0032DB24252707F3008934AB /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0032DB23252707F3008934AB /* MovieGridViewController.swift */; };
+		0032DB2925270E0D008934AB /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0032DB2825270E0D008934AB /* MovieGridCell.swift */; };
 		A3DAC8050A816B85C75F43D0 /* Pods_Week_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC1354D4DD18B2E0D27451E /* Pods_Week_1Tests.framework */; };
 		DAC86D46B4DD92DB2607FCBD /* Pods_Week_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D491461D1809A4493E1731F2 /* Pods_Week_1.framework */; };
 		DFE83B33F5D1F1D58E5A216F /* Pods_Week_1_Week_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB26D077264C26CC5877256 /* Pods_Week_1_Week_1UITests.framework */; };
@@ -54,6 +57,9 @@
 		0017947F25198AAB0057493D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		001794BB251992330057493D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		001794C82519A01D0057493D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		0032DB1E2526FC9E008934AB /* MovieDetails1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails1ViewController.swift; sourceTree = "<group>"; };
+		0032DB23252707F3008934AB /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		0032DB2825270E0D008934AB /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		0AAA638BC9DE9BDF0FCEEE78 /* Pods-Week 1-Week 1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week 1-Week 1UITests.release.xcconfig"; path = "Target Support Files/Pods-Week 1-Week 1UITests/Pods-Week 1-Week 1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		289417F390BB2548F783CF53 /* Pods-Week 1-Week 1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week 1-Week 1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Week 1-Week 1UITests/Pods-Week 1-Week 1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		48D5849B06D0F5171D564E83 /* Pods-Week 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week 1.release.xcconfig"; path = "Target Support Files/Pods-Week 1/Pods-Week 1.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				0017946925198AAB0057493D /* Info.plist */,
 				001794BB251992330057493D /* MoviesViewController.swift */,
 				001794C82519A01D0057493D /* MovieCell.swift */,
+				0032DB1E2526FC9E008934AB /* MovieDetails1ViewController.swift */,
+				0032DB23252707F3008934AB /* MovieGridViewController.swift */,
+				0032DB2825270E0D008934AB /* MovieGridCell.swift */,
 			);
 			path = "Week 1";
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				904F60DC88352331C514516F /* Pods-Week 1Tests.debug.xcconfig */,
 				965647E5A1416C6BF9C0EBCF /* Pods-Week 1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0032DB1F2526FC9E008934AB /* MovieDetails1ViewController.swift in Sources */,
 				0017945C25198AA80057493D /* AppDelegate.swift in Sources */,
 				0017945E25198AA80057493D /* SceneDelegate.swift in Sources */,
 				001794C92519A01D0057493D /* MovieCell.swift in Sources */,
 				001794BC251992330057493D /* MoviesViewController.swift in Sources */,
+				0032DB24252707F3008934AB /* MovieGridViewController.swift in Sources */,
+				0032DB2925270E0D008934AB /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZT3D5L89W;
 				INFOPLIST_FILE = "Week 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,6 +622,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZT3D5L89W;
 				INFOPLIST_FILE = "Week 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
